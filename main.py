@@ -1,3 +1,5 @@
+class ContestRuntimeException(Exception):
+    pass
 class MainProgram:
     def main(argv: list):
         ...
