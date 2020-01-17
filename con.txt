@@ -263,10 +263,10 @@ el = [5, None, None]
       ^______________________________|
 
 def length(node)
-   ...
+    ...
 
 def elementAt(node, n):
-   ...
+    ...
 
 def delete(node): #deletes THIS node
     node[2][1] = node[1]
@@ -276,10 +276,6 @@ def insert(node, x):
     a = [x, node[1], node]
     node[1] = a
     node[1][1][2] = a
-
-
-
-
 
 
 
