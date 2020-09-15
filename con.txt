@@ -296,4 +296,30 @@ def insert(node, x):
 |-> JS - JavaScript
 |-> Kotlin Native
 
+fun main() { println("Hello world!") }
 
+------------------------  Базовые типы данных
+Целочисленные типы:
+    - Byte   1 байт
+    - Short  2 байта
+    ! Int    4 байта
+    - Long   8 байт
+    * BigInteger
+Вещественные:
+    - Float    4 байт
+    ! Double   8 байт
+    * BigDecimal
+    ~ Символьные вычисления
+Логические типы:
+    ! Boolean (true / false)    1 байт
+    * BitSet
+Строковые типы:
+    ! Char      2 байта
+    ! String
+Знаковые целочисленные типы:
+    | Беззнаковый тип:
+    |    //unsigned byte
+       |Signed
+       |____|____|____|____|____|____|____|____|
+       |-128|  64|  32|  16|   8|   4|   2|   1|
+     
