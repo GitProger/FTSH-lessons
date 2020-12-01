@@ -497,6 +497,22 @@ a.takeLast(7) // last 7 elements
 a.shuffled().take(7) // random 7 elements
 
 
+#####################################
+## Хвостовая рекурсия
+Оптимизирвать - tailrec
+
+factorial(n) -> factorial(n, acc)
+ 
+fun fact1(n: Int): Int { // no tailrec
+    if (n < 2) return 1
+    return n * fact1(n - 1)
+}
+
+fun fact2(n: Int, acc: Int = 1) { // tailrec
+    if (n < 2) return acc
+    return fact2(n - 1, acc * n)
+}
+
 
 
 
