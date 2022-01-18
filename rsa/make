@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+kotlinc main.kt key.kt -include-runtime -d main.jar
+
